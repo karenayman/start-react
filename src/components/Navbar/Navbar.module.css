@@ -1,0 +1,22 @@
+.mobilemenu {
+    position: absolute;
+    left: 0px;
+    padding: 24px;
+    right: 0px;
+    width: 100%;
+    background: #2c3e50;
+    top: 5em;
+    transition: 0.3s ease-in-out;
+}
+.mobilemenu li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header {
+    position: relative;
+}
+header .active {
+    background-color: #1abc9c;   
+    padding: 10px;
+    border-radius: 10px;
+}

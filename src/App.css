@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #2c3e503b;
+}
+
+.modal img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    /* width: 30%; */
+    text-align: revert-layer;
+}
+
+span.close {
+    background: #1a252f;
+    position: absolute;
+    right: 3%;
+    width: 25px;
+    text-align: center;
+    color: antiquewhite;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    top: 3%;
+    cursor: pointer;
+}
